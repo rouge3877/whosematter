@@ -3,4 +3,15 @@
 # To modify the layout, see https://jekyllrb.com/docs/themes/#overriding-theme-defaults
 
 layout: home
+title: Whose Poem
 ---
+
+## Poems
+
+{% for post in site.posts %}
+  {% if post.categories contains 'poem' %}
+    <a href="{{ post.url }}">{{ post.title }}</a>
+  {% endif %}
+{% endfor %}
+
+
