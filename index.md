@@ -9,7 +9,7 @@ title: Whose Poem
 ## Poems
 
 {% for post in site.posts %}
-  {% if post.categories contains 'poem' %}
+  {% if post.categories contains '-100' %}
     <a href="{{ post.url }}">{{ post.title }}</a>
   {% endif %}
 {% endfor %}
