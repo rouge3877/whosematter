@@ -1,6 +1,7 @@
 ---
 layout: home
 title: Whose Poem
+layout: page
 ---
 
 ### Whose Poems?
