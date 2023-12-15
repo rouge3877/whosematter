@@ -1,18 +1,21 @@
 ---
-layout: page
 title: About
 permalink: /about/
 ---
 
-This is the base Jekyll theme. You can find out more info about customizing your Jekyll theme, as well as basic Jekyll usage documentation at [jekyllrb.com](https://jekyllrb.com/)
+## Whose Poems?
+已经过去了好几日，也不知这份心思从何时起。
 
-You can find the source code for Minima at GitHub:
-[jekyll][jekyll-organization] /
-[minima](https://github.com/jekyll/minima)
+空虚感像翘掉早八的床——怅然若失的温暖，被子一样盖在我的身上。亦或流感中的热水澡，也算是恰好的比喻。
 
-You can find the source code for Jekyll at GitHub:
-[jekyll][jekyll-organization] /
-[jekyll](https://github.com/jekyll/jekyll)
+但今日又是惬意的，八点半醒来。美中不足的是下床略晚了些，导致久违的早饭后需赶去教室才行，万幸赶在课间结束前改了考勤。
 
+温泉浴室前落下的枫叶？总之手掌般大小枯黄的——这份枯黄只存在于现实，毕竟散樱般洒落的，想必是春日才有的嫣红，哗啦啦声像是涨膘的铃铛。倘若真有樱花乱舞，此刻便是遇见了心中的侧颜。明知是假，却也驻足，痴呆的望着。
 
-[jekyll-organization]: https://github.com/jekyll
+主楼旁的卧樱？秋天将它装饰成了碘酒的颜色，涂抹在行人的心上。
+
+去了，又将是一天。
+
+此刻卧在床上，我今日做了些什么？
+
+走了，又是一天。
