@@ -27,10 +27,10 @@ title: Whose Poem
 
 ----------
 
-## 2023winter [{{ ABOUT }}](./{{ about.url }})
+## 2023's winter [{{ ABOUT }}](./{{ about.url }})
 
 ![main tower's autumn](./image/shier's-autumn.jpg)
 
-> 调色过与饱和的秋天
+> 调色过于饱和的秋日
 >
 > 藏在主楼玻璃的倒映中
