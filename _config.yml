@@ -4,9 +4,5 @@ email: rouge_3877@outlook.com
 description: >- # this means to ignore newlines until "baseurl:"
   Whose poems? Whose poems? 
   Include whose poems?
-baseurl: "./whosepoem" # the subpath of your site, e.g. /blog
-url: "" # the base hostname & protocol for your site, e.g. http://example.com
+theme: jekyll-theme-minimal
 github_username:  rouge3877
-
-# Build settings
-theme: jekyll-theme-architect
