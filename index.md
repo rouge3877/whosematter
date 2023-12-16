@@ -34,3 +34,6 @@ title: Whose Poem
 
 ![main tower's autumn](./image/shier's-autumn.jpg)
 
+> 调色过与饱和的秋天
+>
+> 藏在主楼玻璃的倒映中
