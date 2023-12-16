@@ -3,7 +3,7 @@ title: Whose Poem
 ---
 
 ## 雪之霜
-***台阶上涂满了白色***
+***台阶漆满白色***
 
 ***皲裂的风扫过***
 
@@ -11,20 +11,17 @@ title: Whose Poem
 
 ***心象参差错落***
 
------
 ### - Whose Poems?
 {% for post in site.posts %}
 {% if post.tags contains 'whose' %}
-* [{{ post.title }}](./{{ post.url }})
-{% endif %}
-{% endfor %}
-
-----
+* 🈶[{{ post.title }}](./{{ post.url }})
+  {% endif %}
+  {% endfor %}
 
 ### - Poems
 {% for post in site.posts %}
 {% if post.tags contains 'poem' %}
-* [{{ post.title }}](./{{ post.url }})
+* 🈚[{{ post.title }}](./{{ post.url }})
 {% endif %}
 {% endfor %}
 
