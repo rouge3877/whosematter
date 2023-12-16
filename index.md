@@ -2,17 +2,17 @@
 title: Whose Poem
 ---
 
-## POEM
+## 雪之霜
 ***台阶上涂满了白色***
 
 ***皲裂的风扫过***
 
-***胃脏在呐喊中***
+***脾胃在呐喊中***
 
-***心象是参差错落***
+***心象参差错落***
 
 -----
-### Whose Poems?
+### - Whose Poems?
 {% for post in site.posts %}
 {% if post.tags contains 'whose' %}
 * [{{ post.title }}](./{{ post.url }})
@@ -21,7 +21,7 @@ title: Whose Poem
 
 ----
 
-### Poems
+### - Poems
 {% for post in site.posts %}
 {% if post.tags contains 'poem' %}
 * [{{ post.title }}](./{{ post.url }})
