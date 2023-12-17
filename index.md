@@ -14,14 +14,14 @@ title: Whose Poem
 ### - Whose Poems?
 {% for post in site.posts %}
 {% if post.tags contains 'whose' %}
-* 🈶[{{ post.title }}](./{{ post.url }})
+* 🈶[{{ post.title }}](./{{ post.url }}) -{{post.data}}
   {% endif %}
   {% endfor %}
 
 ### - Poems
 {% for post in site.posts %}
 {% if post.tags contains 'poem' %}
-* 🈚[{{ post.title }}](./{{ post.url }})
+* 🈚[{{ post.title }}](./{{ post.url }}) -{{post.data}}
 {% endif %}
 {% endfor %}
 
@@ -31,6 +31,6 @@ title: Whose Poem
 
 ![main tower's autumn](./image/shier's-autumn.jpg)
 
-> 调色过于饱和的秋日
+> 调色过于饱和的秋
 >
-> 藏在主楼玻璃的倒映中
+> 打印在主楼的玻璃上
