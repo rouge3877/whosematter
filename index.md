@@ -15,7 +15,7 @@ data: 2005-07-20
 
 > *扬起雪色烟云*
 
-> *脾胃在呐喊中*
+> *脾胃在呐喊...*
 
 ### - Whose Poems?
 {% for post in site.posts %}
