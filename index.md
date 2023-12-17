@@ -43,6 +43,6 @@ data: 2005-07-20
 
 ## 2023's 冬
 
-[about winter](./about.html)
+[about winter](./about)
 
 
