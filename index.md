@@ -9,25 +9,25 @@ data: 2005-07-20
 
 ## 雪之霜
 
-> ***台阶漆满白霜***
+> *台阶漆满白霜*
 
-> ***皲裂的风扫过***
+> *皲裂的风扫过*
 
-> ***扬起雪色烟云***
+> *扬起雪色烟云*
 
-> ***脾胃在呐喊中***
+> *脾胃在呐喊中*
 
 ### - Whose Poems?
 {% for post in site.posts %}
 {% if post.tags contains 'whose' %}
-* 🈶 - "[{{ post.title }}]({{site.url}}/{{ post.url }})"
+* 🈶 - "[{{ post.title }}](./{{ post.url }})"
   {% endif %}
   {% endfor %}
 
 ### - Poems
 {% for post in site.posts %}
 {% if post.tags contains 'poem' %}
-* 🈚 - "[{{ post.title }}]({{site.url}}/{{ post.url }})"
+* 🈚 - "[{{ post.title }}](./{{ post.url }})"
   {% endif %}
   {% endfor %}
 
@@ -37,13 +37,12 @@ data: 2005-07-20
 
 ![main tower's autumn](./image/shier's-autumn.jpg)
 
-> 调色过于饱和的秋
-> 打印在主楼的玻璃上
+> *调色过于饱和的秋，打印在主楼的玻璃上*
 
 ---------
 
 ## 2023's 冬
 
-[about winter]({{site.url}}/about.html)
+[about winter](./about.html)
 
 
