@@ -36,7 +36,7 @@ data: 2005-07-20
 ### - All poem
 {% for post in site.posts %}
 {% if post.tags contains 'poem' %}
-* 🈚 - "[{{ post.title }}](./{{ post.url }})"
+* "[{{ post.title }}](./{{ post.url }})"
   {% endif %}
   {% endfor %}
 
