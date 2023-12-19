@@ -3,7 +3,7 @@ title: 雪之霜
 author: Rouge Lin
 data: 2005-07-20
 ---
-# 冬，皲裂的手哆嗦在键盘上......
+# 冬，皲裂的手于键盘上......
 
 ----------
 
@@ -17,21 +17,30 @@ data: 2005-07-20
 
 > *脾胃在呐喊...*
 
-### - Whose Poems?
+### - Whose ?
 {% for post in site.posts %}
-{% if post.tags contains 'whose' %}
-* 🈶 - "[{{ post.title }}](./{{ post.url }})"
+{% if post.tags contains 'whosepoem' %}
+* 🈶(alive) - "[{{ post.title }}](./{{ post.url }})"
   {% endif %}
   {% endfor %}
 
-### - Poems
+
+
+{% for post in site.posts %}
+{% if post.tags contains 'whosearticle' %}
+
+* 🈚(death) - "[{{ post.title }}](./{{ post.url }})"
+  {% endif %}
+  {% endfor %}
+
+### - All poem
 {% for post in site.posts %}
 {% if post.tags contains 'poem' %}
 * 🈚 - "[{{ post.title }}](./{{ post.url }})"
   {% endif %}
   {% endfor %}
 
-----------
+-------------------
 
 ## 2023's 秋冬
 
@@ -41,8 +50,10 @@ data: 2005-07-20
 
 ---------
 
-## 2023's 冬
+## 2023's 冬 *([about winter](./about))*
 
-[about winter](./about)
+![road's winter](./image/rouge's-winter-leaf.jpg)
+
+> 被冬风蹂躏的街道
 
 
