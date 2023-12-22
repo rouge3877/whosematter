@@ -8,7 +8,6 @@ data: 2005-07-20
 ----------
 
 ## *Part1*. 雪之霜
-
 > *台阶漆满白霜*
 >
 > *皲裂的风扫过*
@@ -32,8 +31,8 @@ data: 2005-07-20
   {% endif %}
   {% endfor %}
   
+#### @ by  whose
 {% for post in site.posts %}
-#### @  by  {{ post.author }}
 {% if post.author == 'whose' %}
 * *”{{ post.title }}“* - 📃
   {% endif %}
@@ -46,7 +45,7 @@ data: 2005-07-20
 
 ![main tower's autumn](./image/shier's-autumn.jpg)
 
-> *调出过于浓郁颜色的秋，打印在主楼的玻璃上*
+> *调出过于浓郁颜色的秋，打印在主楼的玻璃*
 
 ---------
 
