@@ -15,12 +15,12 @@ data: 2005-07-20
 
 > *扬起雪色烟云*
 
-> *脾胃在呐喊...*
+> *无力、呐喊...*
 
 ### - Whose ?
 {% for post in site.posts %}
 {% if post.tags contains 'whosepoem' %}
-* 🈶(alive) - "[{{ post.title }}](./{{ post.url }})"
+* 🈶(alive) - "[{{ post.title }}](.{{ post.url }})"
   {% endif %}
   {% endfor %}
 
@@ -29,14 +29,14 @@ data: 2005-07-20
 {% for post in site.posts %}
 {% if post.tags contains 'whosearticle' %}
 
-* 🈚(death) - "[{{ post.title }}](./{{ post.url }})"
+* 🈚(death) - "[{{ post.title }}](.{{ post.url }})"
   {% endif %}
   {% endfor %}
 
 ### - All poem
 {% for post in site.posts %}
 {% if post.tags contains 'poem' %}
-* "[{{ post.title }}](./{{ post.url }})"
+* "[{{ post.title }}](.{{ post.url }})"
   {% endif %}
   {% endfor %}
 
