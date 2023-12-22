@@ -34,7 +34,7 @@ data: 2005-07-20
 #### @ by  *<u>whose</u>*
 {% for post in site.posts %}
 {% if post.author == 'whose' %}
-* *”{{ [post.title](.{{ post.url }}) }}“* - 📃
+* *”[{{ post.title }}](.{{ post.url }})“* - 📃
   {% endif %}
   {% endfor %}
 
