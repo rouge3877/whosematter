@@ -7,7 +7,7 @@ data: 2005-07-20
 
 ----------
 
-## 雪之霜
+## *Part1*. 雪之霜
 
 > *台阶漆满白霜*
 
@@ -17,47 +17,23 @@ data: 2005-07-20
 
 > *无力、呐喊...*
 
-### - Whose ?
-{% for post in site.posts %}
-{% if post.tags contains 'whosepoem' %}
-* 🈶**(alive) -** "[{{ post.title }}](.{{ post.url }})"
-  {% endif %}
-  {% endfor %}
-
-
-
-{% for post in site.posts %}
-{% if post.tags contains 'whosearticle' %}
-
-* 🈚**(death) -** "[{{ post.title }}](.{{ post.url }})"
-  {% endif %}
-  {% endfor %}
-
-### - All poem
-{% for post in site.posts %}
-{% if post.tags contains 'poem' %}
-* "[{{ post.title }}](.{{ post.url }})"
-  {% endif %}
-  {% endfor %}
-
-
-### - All Posts by Authors
+### - All Matters by All Authors
 
 {% assign authors = site.posts | map: 'author' | uniq %}
 
 {% for author in authors %}
-  #### {{ author }}
+#### @ {{ author }}
 
-  {% for post in site.posts %}
-    {% if post.author == author %}
-      * - "[{{ post.title }}]({{ post.url }})"
-    {% endif %}
+{% for post in site.posts %}
+{% if post.author == author %}
+* 📜"[{{ post.title }}]({{ post.url }})"  by  {{author}}
+  {% endif %}
   {% endfor %}
-{% endfor %}
+  {% endfor %}
 
 -------------------
 
-## 2023's 秋冬
+## *Part2*. 2023's 秋冬
 
 ![main tower's autumn](./image/shier's-autumn.jpg)
 
@@ -65,7 +41,7 @@ data: 2005-07-20
 
 ---------
 
-## 2023's 冬 *([about winter](./about))*
+## *Part3*. 2023's 冬 *([about winter](./about))*
 
 ![road's winter](./image/rouge's-winter-leaf.jpg)
 
