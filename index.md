@@ -10,11 +10,11 @@ data: 2005-07-20
 ## *Part1*. 雪之霜
 
 > *台阶漆满白霜*
-
+>
 > *皲裂的风扫过*
-
+>
 > *扬起雪色烟云尘*
-
+>
 > *无力、呐喊...*
 
 ### - All Matters by All Authors
@@ -23,19 +23,19 @@ data: 2005-07-20
 
 {% for author in authors %}
 {% if author != 'whose' %}
-#### @  {{ author }}
+#### @ from  {{ author }}
 {% for post in site.posts %}
 {% if post.author == author %}
-* 📜**《[{{ post.title }}]({{ post.url }})》**
+* **《[{{ post.title }}]({{ post.url }})》** - 📜
   {% endif %}
   {% endfor %}
   {% endif %}
   {% endfor %}
   
 {% for post in site.posts %}
+#### @  by  {{ post.author }}
 {% if post.author == 'whose' %}
-#### &  {{ post.author }} 
-* *📃”{{ post.title }}“*
+* *”{{ post.title }}“* - 📃
   {% endif %}
   {% endfor %}
 
