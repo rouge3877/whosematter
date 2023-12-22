@@ -25,8 +25,11 @@ data: 2005-07-20
 #### @ {{ author }}
 
 {% for post in site.posts %}
-{% if post.author == author %}
-* 📜"[{{ post.title }}]({{ post.url }})"  by  {{author}}
+{% if post.author == author and author != 'whose' %}
+* 📜**《[{{ post.title }}]({{ post.url }})》**
+  {% endif %}
+{% if post.author == 'whose' %}
+* 📃*”[{{ post.title }}]({{ post.url }})“*
   {% endif %}
   {% endfor %}
   {% endfor %}
@@ -37,7 +40,7 @@ data: 2005-07-20
 
 ![main tower's autumn](./image/shier's-autumn.jpg)
 
-> *调色过于饱和的秋，打印在主楼的玻璃上*
+> *调出过于浓郁颜色的秋，打印在主楼的玻璃上*
 
 ---------
 
