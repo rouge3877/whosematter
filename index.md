@@ -22,17 +22,23 @@ data: 2005-07-20
 {% assign authors = site.posts | map: 'author' | uniq %}
 
 {% for author in authors %}
-#### @ {{ author }}
-
+{% if author != 'whose' %}
+#### @  {{ author }}
 {% for post in site.posts %}
-{% if post.author == author and author != 'whose' %}
+{% if post.author == author %}
 * 📜**《[{{ post.title }}]({{ post.url }})》**
   {% endif %}
-{% if post.author == 'whose' %}
-* 📃*”[{{ post.title }}]({{ post.url }})“*
+  {% endfor %}
   {% endif %}
   {% endfor %}
+  
+{% for post in site.posts %}
+{% if post.author == 'whose' %}
+#### &  {{ post.author }} 
+* *📃”{{ post.title }}“*
+  {% endif %}
   {% endfor %}
+
 
 -------------------
 
