@@ -25,16 +25,16 @@ data: 2005-07-20
 #### @ from  {{ author }}
 {% for post in site.posts %}
 {% if post.author == author %}
-* **《[{{ post.title }}]({{ post.url }})》** - 📜
+* **《[{{ post.title }}](.{{ post.url }})》** - 📜
   {% endif %}
   {% endfor %}
   {% endif %}
   {% endfor %}
   
-#### @ by  whose
+#### @ by  *<u>whose</u>*
 {% for post in site.posts %}
 {% if post.author == 'whose' %}
-* *”{{ post.title }}“* - 📃
+* *”{{ [post.title](.{{ post.url }}) }}“* - 📃
   {% endif %}
   {% endfor %}
 
