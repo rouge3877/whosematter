@@ -3,7 +3,7 @@ title: 雪之霜
 author: Rouge Lin
 data: 2005-07-20
 ---
-# 冬，皲裂的手于键盘上......
+# 冬，皲裂，Keyboard，干涸
 
 ----------
 
