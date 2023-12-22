@@ -13,14 +13,14 @@ data: 2005-07-20
 
 > *皲裂的风扫过*
 
-> *扬起雪色烟云*
+> *扬起雪色烟云尘*
 
 > *无力、呐喊...*
 
 ### - Whose ?
 {% for post in site.posts %}
 {% if post.tags contains 'whosepoem' %}
-* 🈶(alive) - "[{{ post.title }}](.{{ post.url }})"
+* 🈶**(alive) -** "[{{ post.title }}](.{{ post.url }})"
   {% endif %}
   {% endfor %}
 
@@ -29,7 +29,7 @@ data: 2005-07-20
 {% for post in site.posts %}
 {% if post.tags contains 'whosearticle' %}
 
-* 🈚(death) - "[{{ post.title }}](.{{ post.url }})"
+* 🈚**(death) -** "[{{ post.title }}](.{{ post.url }})"
   {% endif %}
   {% endfor %}
 
@@ -39,6 +39,21 @@ data: 2005-07-20
 * "[{{ post.title }}](.{{ post.url }})"
   {% endif %}
   {% endfor %}
+
+
+### - All Posts by Authors
+
+{% assign authors = site.posts | map: 'author' | uniq %}
+
+{% for author in authors %}
+  #### {{ author }}
+
+  {% for post in site.posts %}
+    {% if post.author == author %}
+      * - "[{{ post.title }}]({{ post.url }})"
+    {% endif %}
+  {% endfor %}
+{% endfor %}
 
 -------------------
 
