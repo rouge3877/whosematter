@@ -1,7 +1,7 @@
 ---
 title: "O Captian! My captain!"
 date: 1865-12-31
-tags: [article, free-verse]
+tags: [poem, free-verse, US-post]
 author: Walt Whitman
 ---
 
@@ -22,19 +22,19 @@ author: Walt Whitman
 
 > 稳健的大船，追随的目光，多么威武雄壮；
 
-**But O heart! heart! heart!**
+&nbsp;&nbsp;&nbsp;&nbsp;**But O heart! heart! heart!**
 
 > 可是，心啊！心啊！心啊！
 
-**O the bleeding drops of red,**
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;**O the bleeding drops of red,**
 
 > 心中的鲜血在滴滴流淌，
 
-**Where on the deck my Captain lies,**
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;**Where on the deck my Captain lies,**
 
 > 甲板上躺着我们的船长，
 
-**Fallen cold and dead.**
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;**Fallen cold and dead.**
 
 > 他已辞世，全身冰凉。
 
@@ -56,19 +56,19 @@ author: Walt Whitman
 
 > 人们把你呼唤，万头攒动，他们晃动急切的面庞；
 
-**Here Captain! dear father!**
+&nbsp;&nbsp;&nbsp;&nbsp;**Here Captain! dear father!**
 
 > 在这里，船长，慈爱的父亲！
 
-**This arm beneath your head!**
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;**This arm beneath your head!**
 
 > 你的头下枕着我的臂膀！
 
-**It is some dream that on the deck,**
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;**It is some dream that on the deck,**
 
 > 那是甲板上的梦境，
 
-**You've fallen cold and dead.**
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;**You've fallen cold and dead.**
 
 > 你已辞世，全身冰凉。
 
@@ -90,18 +90,18 @@ author: Walt Whitman
 
 > 大船安全停靠，就此结束远航；
 
-**Exult O shores, and ring O bells!**
+&nbsp;&nbsp;&nbsp;&nbsp;**Exult O shores, and ring O bells!**
 
 > 啊，海岸欢呼，啊，钟声敲响！
 
-**But I, with mournful tread,**
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;**But I, with mournful tread,**
 
 > 然而，我的步履沉重悲伤，
 
-**Walk the deck my Captain lies,**
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;**Walk the deck my Captain lies,**
 
 > 在甲板上踱步，那里躺着我的船长，
 
-**Fallen cold and dead.**
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;**Fallen cold and dead.**
 
 > 他已辞世，全身冰凉。
