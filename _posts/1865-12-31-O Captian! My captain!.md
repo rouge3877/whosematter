@@ -1,3 +1,11 @@
+---
+title: "O Captian! My captain!"
+date: 1865-12-31
+tags: [article, free-verse]
+author: Walt Whitman
+---
+
+
 **O Captain! my Captain! our fearful trip is done,**
 
 > 啊，船长！我的船长！我们完成了可怕的远航，
